@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@media (min-width: 991px) and (max-width: 1125px) {
+	.jumbotron h1 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 57px;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+}.content-img {
+	width: 350px;
+	height: auto;
+	-webkit-filter: drop-shadow(1px 3px 5px #00f69b);
+	filter: drop-shadow(1px 3px 5px #00f69b);
+}
+}
+@media (min-width: 700px) and (max-width: 991px){
+.jumbotron h1{
+	font-size: 56px!important;
+}
+}
+@media (min-width: 280px) and (max-width: 991px){
+	.tit-xy{
+		    font-size: 36px;
+
+	}
+	.responsive {
+  width: 100%;
+  height: auto;
+}
+.background{
+	height: 667px!important;
+}.bg-header{
+	background: #0f0e1c;
+	transition: all 1s ease;
+}.bars{
+	font-size: 40px;
+	color: #fff;
+}.navbar-toggler:focus{
+   outline: none !important;
+   box-shadow: none;
+}	
+.content-img  {
+	display: none!important;
+}.bg-header .navbar-brand{
+	padding: 0px 25px;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+.minh-100 {
+  justify-content:center!important; 
+  align-items:center!important;
+  height: 100vh;
+}
+.text-jumb{
+	text-align: center;
+	font-weight: bold!important;
+	/*padding: 100px 0 0px 0;*/
+	letter-spacing: 3px;
+	text-transform: uppercase!important;
+	font-family: 'Raleway', sans-serif!important;
+	font-size: 15px;
+	color: #fff;
+}.jumbotron{
+	padding: 0!important;
+	position: relative!important;
+}
+.jumbotron h1{
+	text-align: center!important;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+}.jumbotron .content-text .text-pre{
+	position: absolute!important;
+	font-style: italic;
+	text-align: center!important;
+   font-size: 18px!important;
+}.row-vermas .vermas{
+	display: none!important;
+}.bg-header .navbar-nav .nav-item{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}.content-info h4{
+	text-align: center;
+	line-height: 30px;
+}.content-info .cols{
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+.content-info p{
+		color: #626262;
+		font-size: 20px!important;
+		font-family: 'Lato', sans-serif;
+	}.content-info h3{
+	   font-size: 23px!important;
+		padding-bottom: 28px!important;
+	}
+}
+
+/* Responsive CSS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+	.single-item{
+		width:100%;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+	.single-item{
+		width:50%;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+	.single-item{
+		width:33.33%;
+	}
+
+}
